@@ -1,3 +1,5 @@
+# SYMLANG DOCUMENTATION
+
 Welcome to SYMLANG, a language designed for the funnies and to make you hate your life.
 
 ### I: Declarations
