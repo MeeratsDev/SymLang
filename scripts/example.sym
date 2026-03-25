@@ -1,0 +1,16 @@
+$year = i(input("Enter the last olymics year: ")); // gets input of the last olympics year
+$curYear = i(2026); // sets the current year
+$year += 4; // adds 4 to the last olympics year to get the next olympics year
+print($year); // prints the next olympics year
+
+? ($year != $curYear + 4) { // checks if the next olympics year is valid
+    ? ($year < $curYear) { // checks if the next olympics year is in the past
+        print("HOW DID YOU GO TO THE PAST!?!?!?");
+    } ~ {
+        $diff = $year - $curYear; // calculates the difference between the next olympics year and the current year
+        $diff = s($diff); // converts the difference to a string
+        print("The year is " + $diff + " years after the current year."); // prints the difference
+    }
+}
+
+// this is actually really easy to write in.
