@@ -3,6 +3,8 @@
 Welcome to SYMLANG, a language designed for the funnies and to make you hate your life.
 
 ## INSTALLATION:
+_**REQUIRES PYTHON 3.13 OR LATER TO RUN**_
+
 1. Go to releases and download the `latest` symlang interpreter.
 2. Download the companion `example.sym` file.
 3. Run `example.sym` using `python /path/to/interpreter.py /path/to/example.sym`
