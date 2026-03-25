@@ -1,6 +1,14 @@
-# SYMLANG DOCUMENTATION
+# SYMLANG
 
 Welcome to SYMLANG, a language designed for the funnies and to make you hate your life.
+
+## INSTALLATION:
+1. Go to releases and download the `latest` symlang interpreter.
+2. Download the companion `example.sym` file.
+3. Run `example.sym` using `python /path/to/interpreter.py /path/to/example.sym`
+4. Profit
+
+## Understanding SymLang
 
 ### I: Declarations
 
