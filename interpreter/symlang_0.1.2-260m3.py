@@ -1,5 +1,5 @@
 r"""
-Interpreter for the custom language spec.
+SYMLANG INTERPRETER 0.1.2-260m3.
 
 Syntax summary:
   Variables:   $x = i(0);  $x = s("hi");  etc.
