@@ -99,21 +99,21 @@ while true:
 
 becomes ->
 
-%% (true) {
+:: (true) {
 	return;
 }
 ```
 #### All Loops:
 "while" loops are called with 
 ```
-%% (args) {
+:: (args) {
 	return;
 }
 ```
 
 "for" loops are called with
 ```
-:: (args) {
+\ (args) {
 	return;
 }
 ```
