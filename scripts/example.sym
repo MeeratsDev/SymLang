@@ -5,22 +5,22 @@
         $year = i(input("Enter the last olymics year: ")); // input variable
         $curYear = i(2026);
         $year += 4;
-        print($year);
+        print(s($year) + " // output from line 8");
 
         c$PI = f(3.14159); // constant
 
         ? ($year < $curYear) { // if statement
-            print("HOW DID YOU GO TO THE PAST!?!?!?");
+            print("HOW DID YOU GO TO THE PAST!?!?!?"  + " // output from line 13");
         } ~ { // else statement
             $diff = $year - $curYear;
             $diff = s($diff);
-            print("The year is " + $diff + " years after the current year."); // print
+            print("The year is " + $diff + " years after the current year." + " // output from line 17"); // print
 
-            \ ($x = i(0); $x < i($diff); $x += 1) { // for loop
-                print("Year " + s($x + $curYear));
+            \ ($x = i(0); $x < i($diff); $x += 1) { // for loop, ($x = i(startValue); $x < i(stopValue); $x += increment)
+                print("Year " + s($x + $curYear) + " // output from line 20");
 
                 $x *= c$PI;
-                print("x * PI = " + s($x));
+                print("x * PI = " + s($x) + " // output from line 23");
             }
         }
     }
