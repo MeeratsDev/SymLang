@@ -1,21 +1,29 @@
-$year = i(input("Enter the last olymics year: ")); // input
-$curYear = i(2026);
-$year += 4;
-print($year);
+# main($k) { // function
+    $j = $k;
 
-c$PI = f(3.14159);
+    :: ($j == i(1)) { // while loop
+        $year = i(input("Enter the last olymics year: ")); // input variable
+        $curYear = i(2026);
+        $year += 4;
+        print($year);
 
-? ($year < $curYear) { // if statement
-    print("HOW DID YOU GO TO THE PAST!?!?!?");
-} ~ { // else statement
-    $diff = $year - $curYear;
-    $diff = s($diff);
-    print("The year is " + $diff + " years after the current year."); // print
+        c$PI = f(3.14159); // constant
 
-    \ ($x = i(0); $x < $diff; $x += 1) { // for loop
-        print("Year " + s($x + $curYear));
+        ? ($year < $curYear) { // if statement
+            print("HOW DID YOU GO TO THE PAST!?!?!?");
+        } ~ { // else statement
+            $diff = $year - $curYear;
+            $diff = s($diff);
+            print("The year is " + $diff + " years after the current year."); // print
 
-        $x *= c$PI;
-        print("x * PI = " + s($x));
+            \ ($x = i(0); $x < i($diff); $x += 1) { // for loop
+                print("Year " + s($x + $curYear));
+
+                $x *= c$PI;
+                print("x * PI = " + s($x));
+            }
+        }
     }
 }
+
+main(1); // call main function
